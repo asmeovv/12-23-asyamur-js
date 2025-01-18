@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+   width: 1000px;
+   height: 40px;
+   padding: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    position: absolute;
+    left: 45%;
+}
+
+p{
+    font-size: 40px;
+}
+
+.burger{
+    width:50px;
+    height: 50px;
+    padding: 35px;
+
+    position: absolute;
+    left:90%;
+
+    cursor: pointer;
+}
+
+.links-menu{
+    display: none; 
+    background-color: #eee;
+    position: absolute;
+    top: 50px; 
+    right: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.links-menu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links-menu li{
+    padding: 10px 20px;
+}
+
+.links-menu a{
+    text-decoration: none;
+    color: #333;
+}
+
+.links-menu.active {
+    display: block; 
+}
+
+.banner{
+    position: relative;
+}
+
+.title{
+    margin-left: 47%;
+    margin-top: 100px;
+}
+
+.title p{
+    font-size: 20px;
+}
+
+.slider{
+     margin-left: 32%;
+     margin-top: 50px;
+}
+
+.slider img{
+    width: 50%;
+    height: 50%;
+}
+
+.point{
+    margin-left:48%;
+    color: gray;
+    margin-top: -10px;
+}
+
+
